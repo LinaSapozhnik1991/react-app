@@ -1,0 +1,27 @@
+.postsBlock{
+    color:blueviolet;
+    padding: 10px;
+}
+textarea{
+   border:none;
+   background-color: rgb(200, 219, 219);
+   border-radius: 15px;
+   width: 80%;
+   height: 80px;
+   font-size: 24px;
+
+ 
+}
+button{
+    margin:5px;
+    background: linear-gradient(grey,pink);
+    border-radius: 15px;
+    border:none;
+}
+span{
+    margin-left: 25px;
+}
+.posts{
+    font-size: 20px;
+}
+

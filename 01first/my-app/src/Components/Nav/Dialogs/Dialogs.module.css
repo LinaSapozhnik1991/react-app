@@ -1,0 +1,25 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+
+}
+.dialogsItem{
+   
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.dialogs{
+    padding: 10px;
+}
+
+.messages{
+color: rgb(101, 101, 232);
+padding: 10px;
+}
+.textArea textarea{
+    background-color: rgb(163, 195, 195);
+    width: 250px;
+    height: 150px;
+
+}

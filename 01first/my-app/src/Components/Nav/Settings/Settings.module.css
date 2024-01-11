@@ -1,0 +1,9 @@
+.item{
+    display: flex;
+    height: 100%;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: blue;
+}
