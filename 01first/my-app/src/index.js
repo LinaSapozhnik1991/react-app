@@ -14,7 +14,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
+debugger;
  let rerenderEntairTree =(state)=>{
 root.render(
 <App state = {state} 

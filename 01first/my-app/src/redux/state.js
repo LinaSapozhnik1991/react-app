@@ -37,7 +37,7 @@ let store = {
   },
 
 
-  _callSubsriber(){
+  _rerenderEntairTree(){
     console.log('State  changed');
 
 },
@@ -57,11 +57,11 @@ this._rerenderEntairTree(this._state)
 
 updateNewPostText (newText){
 this._state.profilePage.newPostText= newText;
-  this._callSubsriber(this._state);
+  this._rerenderEntairTree(this._state);
   },
 
  subscribe  (observer){
-  this._callSubsriber = observer;
+  this._rerenderEntairTree= observer;
   }
 }
   
